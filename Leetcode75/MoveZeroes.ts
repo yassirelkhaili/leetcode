@@ -1,5 +1,7 @@
 let nums: Array<number> = [0,1,0,3,12];
 
+//my first solution
+
 // function moveZeroes(nums: number[]): void {
 // let leftpointer: number = 0;
 // let rightpointer: number = leftpointer + 1;
@@ -17,6 +19,9 @@ let nums: Array<number> = [0,1,0,3,12];
 //     rightpointer++;
 // }
 // };
+
+
+//more optimized solution
 
 function moveZeroes(nums: number[]): void {
     let moveToFirst = 0;
